@@ -1,0 +1,70 @@
+.nav-dashboard {
+  height: 850px;
+  /* background-color: #ccc; */
+}
+.navbar-brand{
+  margin-left: 75px;
+}
+#user-i{
+  margin: 10px;
+  font-size: 30px;
+} 
+#dashboard-i {
+  font-size: 25px;
+    padding: 10px;
+}
+
+#user {
+  width: 230px;
+}
+
+.aside {
+  background-color: white;
+  height: 716px;
+}
+.aside button {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.logout-button {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  left: 140px;
+  margin-top: 230px;
+}
+.customers {
+  background-color: #E5E5E5;
+  height: 716px;
+}
+.table-container{
+  width: 95%;
+  background-color: white;
+}
+#search-w{
+  width: 95%;
+}
+
+#search-b{
+  background-color: #fcfafa;
+}
+#table-width{
+  width: 95%;
+}
+
+.btn-h:hover{
+    background-color: #ff832a;
+}
+
+.usertable button{
+  margin-top:  10px;
+}
+.usertable #icons{
+  font-size: 25px;
+  margin: 20px 20px 20px 20px;
+}
+
+.usertable p{
+  margin-top: 12px;
+}

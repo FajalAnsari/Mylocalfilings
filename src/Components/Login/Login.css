@@ -1,0 +1,77 @@
+.box {
+  height: 610px;
+  margin-top: 100px;
+}
+.login {
+  background-color: #efefef;
+}
+
+#login-form {
+  height: 542px;
+  width: 432px;
+}
+
+#box-right{
+  margin-top: 20px;
+}
+
+.btn-login{
+  background-color: #ff832a;
+  color: white;
+  border-radius: 8px;
+}
+.btn-login:hover{
+  background-color: #efefef;
+  color: #ff832a;
+}
+
+#btn-signup {
+  border-radius: 5px;
+}
+#banner {
+  height: 614px;
+  margin: -5px 80px;
+}
+#forgot{
+  float: right;
+}
+
+
+/* Responsive  */
+
+/* 320px — 480px: Mobile devices */
+@media (max-width: 480px) {
+  #box-left {
+    display: none;
+  }
+}
+/* 481px — 768px: iPads, Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #box-left {
+    display: none;
+  }
+  .login-form {
+    margin: 0px 10px;
+  }
+}
+/* 769px — 1024px: Small screens, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+#box-left #banner{
+    height: 490px;
+    margin: 23px -2px;
+}
+}
+/* 1025px — 1200px: Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #box-left #banner{
+        height: 548px;
+        margin: -23px 22px;
+    }
+}
+/* 1201px and more —  Extra large screens, TV */
+@media only screen and (min-width: 1201px) {
+    #box-left #banner{
+        height: 682px;
+    margin: -79px 41px;
+    }
+}
