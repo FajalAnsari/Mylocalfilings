@@ -4,6 +4,7 @@ import './Dashboard.css';
 import logoin from '../../Images/logo.png';
 import user from '../../Images/user.png';
 import logoutimg from '../../Images/logoutimg.svg';
+import { Link } from 'react-router-dom';
 
 function Dashboard() {
   return (
@@ -37,7 +38,7 @@ function Dashboard() {
                   <button className='btn w-100 p-3 btn-h'><span><i class="bi bi-universal-access-circle" id='dashboard-i'></i></span>RESOURCES</button>
                 </div>
                 <div className='logout-button'>
-                  <img src={logoutimg} alt="logoutimg" />
+                  <Link to={"/"}><img src={logoutimg} alt="logoutimg" /></Link>
                 </div>
               </div>
             </div>

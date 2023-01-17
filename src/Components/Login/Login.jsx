@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Login.css'
 import login from '../../Images/logo.png';
 import banner from '../../Images/banner.svg';
+import { Link } from 'react-router-dom';
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -35,8 +36,8 @@ function Login() {
                                     <div className="col-12 mx-auto">
                                         <label for="exampleFormControlInput1" className="form-labe2 mt-3 pb-2">Enter Your Password</label>
                                         <input type="password" value={password} onChange={(event) => setPassword(event.target.value)} className="form-control" id="exampleFormControlInput2" placeholder="Password" />
-                                        <span id='forgot'>Forgot Passwod?</span>
-                                        <button type="submit" className="btn btn-login w-100 mt-5">Sign In</button>
+                                        <Link to={"/forgot"}><span id='forgot'>Forgot Passwod?</span></Link>
+                                        <Link to={"/dashboard"} type="submit" className="btn btn-login w-100 mt-5">Sign In</Link>
                                         <div className='row'>
                                             <div className='col-6'>
                                                 <button className="btn btn-primary w-100  mt-4" id='btn-up'><span><i class="bi bi-google">+ </i></span>Google</button>

@@ -2,6 +2,7 @@ import React from 'react';
 import './Forgot.css'
 import forgotBanner from '../../Images/forgot.svg';
 import login from '../../Images/logo.png';
+import { Link } from 'react-router-dom';
 
 function Forgot() {
   return (
@@ -29,7 +30,7 @@ function Forgot() {
                   <div className="col-12 mx-auto">
                     <label for="exampleFormControlInput1" className="form-labe2 mt-3 pb-2">Confirm Password</label>
                     <input type="Password" className="form-control" id="exampleFormControlInput2" placeholder="Password" />
-                    <button className="btn btn-login w-100 mt-5">Submit</button>
+                    <Link to={"/dashboard"} className="btn btn-login w-100 mt-5">Submit</Link>
                     <div className='row'>
                       <div className="col-8 mx-auto mt-5" >
                         <p>Don't have an account? <span style={{ color: "#ff832a" }}>Create account</span></p>
